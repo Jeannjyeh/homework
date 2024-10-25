@@ -38,8 +38,8 @@ function draw()
     y += dy;
     ++i;
 
-    if(x < 0 || x+150 > canvas.width)     dx = -dx;
-    if(y < 0 || y+150 > canvas.height)    dy = -dy;
+    if(x < 0 || x+100 > canvas.width)     dx = -dx;
+    if(y < 0 || y+100 > canvas.height)    dy = -dy;
     
     drawImg();
     requestAnimationFrame(draw);
